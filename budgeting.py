@@ -18,8 +18,8 @@ def trunc(num, trim):
 # In[49]:
 
 
-expenses = pd.read_excel('expenses.xlsx')
-income = pd.read_excel('income.xlsx')
+expenses = pd.read_excel('expenses_sample.xlsx')
+income = pd.read_excel('income_sample.xlsx')
 
 
 # In[50]:
@@ -117,7 +117,7 @@ a.loc[0] = [rentPercent, otherCostPercent, totalPercentOfIncome, totalMonthlyInc
 # In[127]:
 
 
-a.to_excel('./result.xlsx')
+a.to_excel('./results_sample.xlsx')
 
 
 # In[130]:
